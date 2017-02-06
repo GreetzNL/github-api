@@ -50,6 +50,9 @@ public class GHDeployment extends GHObject {
     public String getSha(){
         return sha;
     }
+	public String getDescription(){
+        return description;
+    }
 
     /**
      * @deprecated This object has no HTML URL.
